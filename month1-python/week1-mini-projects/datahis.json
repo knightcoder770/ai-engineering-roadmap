@@ -1,0 +1,38 @@
+[
+    {
+        "LOCATION": "Hos\u016br",
+        "COUNTRY": "IN",
+        "TEMPERATURE": "31.8\u00b0C / 89.2\u00b0F",
+        "FEELS LIKE": "30.48\u00b0C",
+        "CONDITION": "Broken clouds",
+        "PRESSURE": 1004,
+        "HUMIDITY": 29,
+        "VISIBILITY": 10000,
+        "WIND SPEED": 2.76,
+        "SEARCHED AT": "2026-05-16 13:43:33"
+    },
+    {
+        "LOCATION": "Hos\u016br",
+        "COUNTRY": "IN",
+        "TEMPERATURE": "31.8\u00b0C / 89.2\u00b0F",
+        "FEELS LIKE": "30.48\u00b0C",
+        "CONDITION": "Broken clouds",
+        "PRESSURE": 1004,
+        "HUMIDITY": 29,
+        "VISIBILITY": 10000,
+        "WIND SPEED": 2.76,
+        "SEARCHED AT": "2026-05-16 13:44:22"
+    },
+    {
+        "LOCATION": "Bengaluru",
+        "COUNTRY": "IN",
+        "TEMPERATURE": "32.02\u00b0C / 89.6\u00b0F",
+        "FEELS LIKE": "34.64\u00b0C",
+        "CONDITION": "Scattered clouds",
+        "PRESSURE": 1004,
+        "HUMIDITY": 51,
+        "VISIBILITY": 6000,
+        "WIND SPEED": 10.73,
+        "SEARCHED AT": "2026-05-16 13:44:22"
+    }
+]

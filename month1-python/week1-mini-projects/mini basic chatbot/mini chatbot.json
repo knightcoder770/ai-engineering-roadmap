@@ -1,0 +1,31 @@
+{
+   "greeting": {
+        "pattern": ["hi", "hello", "hey", "good morning"],
+        "response": ["Hey!", "Hello!", "Hi there!"]
+    },
+    "goodbye": {
+        "pattern": ["bye", "exit", "quit", "goodbye"],
+        "response": ["Goodbye!", "See you later!", "Take care!"]
+    },    
+    "wellbeing":{
+        "pattern":["how are you","are you good","everything okay"],
+        "response":["i am fine","i am good"]
+    },
+    "identity":{
+        "pattern":["who are you?","what is your name"],
+        "response":["i am a chatbot"]
+    },
+    "help":{
+        "pattern":["help","i have a issue","i have a doubt"],
+        "response":["i am here to help you tell your problem"]
+    },
+    "weather":{
+        "pattern":["can i know the weather","todays weather","how is today's weather"],
+        "response":["wait let me fetch today's weather details"]
+    },
+    "suggestion":{
+        "pattern":["what can i cook today give some ideas","suggest some artistic ideas","give some ideas on fun coding"],
+        "response":["here's your idea👇"]
+    }
+    
+}

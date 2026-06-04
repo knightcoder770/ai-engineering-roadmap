@@ -1,0 +1,17 @@
+[
+    {
+        "timestamp": "2026-03-21 18:33:14",
+        "user input": [
+            "hi",
+            "there"
+        ],
+        "output": "Hello!"
+    },
+    {
+        "timestamp": "2026-03-21 18:33:18",
+        "user input": [
+            "weather"
+        ],
+        "output": "wait let me fetch today's weather details"
+    }
+]
