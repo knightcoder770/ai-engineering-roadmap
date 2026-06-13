@@ -2,6 +2,7 @@ import numpy as np
 
 def load_data():
     pass
+
 def generate_data():
     rng=np.random.default_rng(42)
     age=rng.integers(low=10,high=30,size=200,endpoint=True)
@@ -20,6 +21,7 @@ def generate_data():
         random_row=rng.choice(num_rows,size=10,replace=False)
         data[random_row,i]=rng.integers(500,1000)
     return data
+
 def find_missing(data):
     missing=np.sum(np.isnan(data),axis=0)
     col_names = ["age", "study_hours", "sleep_hours", "test_score"]
@@ -34,7 +36,7 @@ def get_bounds(data):
     upper_bound=percentile_75+(1.5*iqr)
     return lower_bound,upper_bound
 
-def find_outliers(data):
+def find_outliers(data):     
     lower_bound,upper_bound=get_bounds(data)   
     outlier_mask=(lower_bound>data)|(data>upper_bound)
     no=np.sum(outlier_mask,axis=0)
@@ -46,6 +48,7 @@ def remove_outliers(data):
     data=data.copy()
     data[outlier_mask]=np.nan
     return data
+
 def fill_missing(data):
     column_mean=np.nanmean(data,axis=0)
     nan_place=np.isnan(data)

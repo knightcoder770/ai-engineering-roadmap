@@ -1,7 +1,7 @@
 import pandas as pd
 
 def load_csv():
-    df=pd.read_csv(r"F:\ai engineer\week2\pandas\Student_Performance.csv")
+    df=pd.read_csv(r"F:\ai-engineering-roadmap\month1-python\week2-data-manipulation\pandas\Student_Performance.csv")
     return df
 
 def explore(df):

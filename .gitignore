@@ -2,3 +2,15 @@ __pycache__/
 *.pyc 
 *.pyo 
 devtrack_data.json 
+
+# Added by GitPush — sensitive files
+secrets.json
+.env.production
+.env.local
+credentials.json
+*.key
+*.pfx
+*.p12
+token.json
+.env
+*.pem
