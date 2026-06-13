@@ -41,7 +41,7 @@ def find_outliers(data):
     outlier_mask=(lower_bound>data)|(data>upper_bound)
     no=np.sum(outlier_mask,axis=0)
     print(f"total no of outliers is {no}")
-
+ 
 def remove_outliers(data):
     lower, upper = get_bounds(data)
     outlier_mask=(data<lower)|(data>upper)
